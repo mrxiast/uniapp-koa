@@ -1,0 +1,9 @@
+{
+  "apps": {
+    "name": "小程序后台",
+    "script": "app.js",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}

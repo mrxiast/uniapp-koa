@@ -1,0 +1,64 @@
+{
+	"pages": [//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+	    "path" : "pages/classic/classic",
+	    "style" : {"navigationBarTitleText": "期刊"}
+	},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+        ,{
+            "path" : "pages/my/my",
+            "style" : {"navigationBarTitleText": "我的"}
+        }
+        ,{
+            "path" : "pages/book/book",
+            "style" : {"navigationBarTitleText": "书籍","enablePullDownRefresh": true}
+        }
+        ,{
+            "path" : "pages/aboutus/aboutus",
+            "style" : {"navigationBarTitleText": "关于我们"}
+        }
+        ,{
+            "path" : "pages/gostudy/gostudy",
+            "style" : {"navigationBarTitleText": "开始学习"}
+        }
+        ,{
+            "path" : "pages/bookItem/bookItem",
+            "style" : {"navigationBarTitleText": "书籍详情"}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor":"#f00",
+	    "list": [
+	      {
+	        "pagePath": "pages/classic/classic",
+			"iconPath": "static/imgs/tv.png",
+			 "selectedIconPath": "static/imgs/tv1.png",
+	        "text": "期刊"
+			
+	      },
+	      {
+	        "pagePath": "pages/book/book",
+			"iconPath": "static/imgs/book.png",
+			 "selectedIconPath": "static/imgs/book1.png",
+	        "text": "书籍"
+	      },
+		  {
+			  "pagePath": "pages/my/my",
+			  "iconPath": "static/imgs/my.png",
+			   "selectedIconPath": "static/imgs/my1.png",
+			  "text": "我的"
+		  }
+	    ]
+}
+}

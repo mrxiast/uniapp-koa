@@ -1,0 +1,180 @@
+.box{
+	height:100%;
+}
+.pageTop{
+	height:100rpx;
+	width:100%;
+	border-bottom:1rpx solid #C0C0C0;
+	box-sizing: border-box;
+	display: flex;
+
+}
+.topLeft{
+	width:50%;
+	height:100%;
+	padding:0 30rpx;
+	display: flex;
+	box-sizing: border-box;
+	align-items:center;
+	.topLeftLeft{
+		width:50%;
+		box-sizing: border-box;
+		padding:0 10rpx;
+	}
+	
+	.topLeftRight{
+		padding:10rpx 0rpx;
+		box-sizing: border-box;
+		view{
+			font-size:20rpx;
+		}
+	}
+}
+.topRight{
+	width:50%;
+	height:100%;
+	display: flex;
+	justify-content: flex-end;
+	padding:0 30rpx;
+	align-items:center;
+	.share{
+		order:2;
+	}
+	.zan{
+		order:1;
+		padding:0 20rpx;
+		span{
+			margin:0 10rpx;
+		};
+	}
+	img{
+		width:30rpx;
+		height:30rpx;
+	}
+		
+	
+}
+
+.content{
+	.bigPic{
+		height:500rpx;
+		width:100%;
+		position:relative;
+		img{
+			width:100%;	
+			height:100%;
+		};
+		.mediaType{
+			position: absolute;
+			-webkit-writing-mode: vertical-rl;
+			writing-mode: vertical-rl;
+			bottom:-70rpx;
+			left:10rpx;
+			font-size: 60rpx;
+			letter-spacing:10rpx;
+		}
+		.musicPic{
+			height:350rpx;
+			width:350rpx;
+			border-radius: 50%;
+			margin-top:75rpx;
+			position:absolute;
+			margin-left:50%;
+			left:-175rpx;
+		}
+		.playBox{
+			width:120rpx;
+			height:120rpx;
+			position:absolute;
+			margin-left:50%;
+			left:-60rpx;
+			margin-top:190rpx;
+			background-color: #fff;
+			border-radius: 50%;
+		}
+		.playBtn{
+			width:60rpx;
+			height:60rpx;
+			margin:30rpx;
+		}
+	}
+	.con_content{
+		margin:100rpx 100rpx;
+		line-height: 80rpx;
+	}
+	
+}
+
+.shareBtn{
+	height:40rpx;
+	width:40rpx;
+	// background-color: #fff;
+	line-height: 0;
+	padding:0;
+}
+.selectNext{
+		height:60rpx;
+		width:400rpx;
+		margin:0 auto;
+		text-align: center;
+		font-size: 25rpx;
+		line-height:60rpx;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding:0 20rpx;
+		border-radius: 5rpx;
+		background-color: #ffe;
+		position:absolute;
+		bottom:1%;
+		left:50%;
+		margin-left:-200rpx;
+		img{
+			height:40rpx;
+			width:40rpx;
+		}
+	}
+	
+	.bookPic{
+		height:500rpx;
+		width:100%;
+		position:relative;
+		
+		img{
+			position:absolute;
+			width:300rpx;
+			height:400rpx;
+			left:50%;
+			margin-left:-150rpx;
+			margin-top:50rpx;
+		}
+		.mediaType{
+			position: absolute;
+			-webkit-writing-mode: vertical-rl;
+			writing-mode: vertical-rl;
+			bottom:-70rpx;
+			left:10rpx;
+			font-size: 60rpx;
+			letter-spacing:10rpx;
+		}
+	}
+	
+	#xuanzhun{
+	
+	animation: rotate 20s linear infinite;
+	
+	}
+	
+	@keyframes rotate{
+	
+	from{transform: rotate(0deg)}
+	
+	to{transform: rotate(359deg)}
+	
+	}
+	
+	
+	
+button::after{
+	border:none;
+}

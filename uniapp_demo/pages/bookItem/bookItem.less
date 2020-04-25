@@ -1,0 +1,189 @@
+.page{
+	padding-bottom:100rpx;
+}
+.showPic{
+	background-color: #fff;
+	padding-bottom:50rpx;
+	.pic{
+		display: flex;
+	}
+	img{
+		height:350rpx;
+		width:350rpx;
+		margin:70rpx auto;
+	}
+	.bookTitle{
+		text-align: center;
+		font-size:30rpx;
+		line-height: 50rpx;
+		color:#333;
+	}
+	.bookAuthor{
+		text-align: center;
+		font-size:25rpx;
+		color:#aaa;
+	}
+}
+.short{
+	background-color: #fff;
+	padding:40rpx;
+	box-sizing: border-box;
+	margin-top:30rpx;
+	.shortTitle{
+		text-align: center;
+		line-height: 50rpx;
+		font-size: 30rpx;
+		.title{
+			background-color: #f98787;
+			width:150rpx;
+			margin:0rpx auto;
+			color:#fff;
+			border-radius:10rpx;
+		}
+	}
+	.shortCon{
+		width:100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.colorShort{
+		width:auto;
+		height:30rpx;
+		line-height:30rpx;
+		background-color: #95c6f9;
+		font-size: 25rpx;
+		padding:10rpx;
+		color:#fff;
+		border-radius: 10rpx;
+	}
+}
+
+.bookCon{
+	background-color: #fff;
+	padding:40rpx;
+	box-sizing: border-box;
+	margin-top:30rpx;
+	.bookCon_til{
+		text-align: center;
+		line-height: 40rpx;
+		margin:20rpx 0;
+		colot:#333;
+	}
+	.bookCon_con{
+		font-size: 25rpx;
+		text-indent: 2em;
+		line-height: 40rpx;
+	}
+}
+
+.bottom{
+	box-sizing: border-box;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	padding:0 20rpx;
+	height:120rpx;
+	overflow: hidden;
+	background-color: #fff;
+	.inputBox{
+		float:left;
+		height:80rpx;
+		width:70%;
+		padding:20rpx 0;
+		box-sizing: border-box;
+		input{
+			box-sizing: border-box;
+			border-radius: 15rpx;
+			padding:0 30rpx;
+			width:100%;
+			height:80rpx;
+			border:1rpx solid #ddd;
+		}
+	}
+	.collection{
+		overflow: hidden;
+		float:right;
+		height:40rpx;
+		margin:0 15rpx;
+		padding-top:40rpx ;
+		.count{
+			float:left;
+			color:#333333;
+			margin:0 10rpx;
+		}
+		img{
+			float:left;
+			height:40rpx;
+			width:40rpx;
+		}
+	}
+	.share{
+		float:right;
+		height:60rpx;
+		padding-top:40rpx;
+		.shareBtn{
+			height:40rpx;
+			width:40rpx;
+			img{
+				height:40rpx;
+				width:40rpx;
+			}
+		}
+		
+	}
+}
+
+
+
+.commentBox{
+	background-color: #fff;
+	margin-top:30rpx;
+	padding:30rpx 0;
+	.commentItem{
+		display: flex;
+		border-bottom:1rpx solid #ddd;
+		padding:20rpx 30rpx;
+		.avaUrl{
+			img{
+				height:80rpx;
+				width:80rpx;
+				border-radius: 50%;
+			}
+		}
+		.commentItem_con{
+			width:100%;
+			.commonName{
+				display: flex;
+				justify-content: space-between;
+				padding:0 30rpx;
+				height:40rpx;
+				.nickName{
+					font-size: 25rpx;
+					color:#333;
+					line-height:40rpx;
+				}
+				.commentTime{
+					font-size: 20rpx;
+					line-height:40rpx;
+					color:#aaa;
+				}
+			}
+			.commonCon{
+				padding:20rpx 40rpx;
+				color:#333;
+				font-size:25rpx;
+				text-shadow: 0px 0px 30px #fff,0px 0px 50px #e9f3a2,0px 0px 70px #fff;
+			}
+		}
+	}
+}
+
+button::after{
+	border:none;
+}
+button{
+	background: rgba(255,255,255,0);
+	line-height: 0;
+	padding:0;
+	
+}
